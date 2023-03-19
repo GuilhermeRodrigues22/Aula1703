@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(165, 236, 241, 0.774);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .card {
+    padding: 5rem 5rem 5rem 5rem;
+    background-color: #fafafafa;
+    position: absolute;
+    width: 420px;
+    height: 600px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50vh;
+    transform: translateY(-50%);
+    border-radius: 5px;
+  }
+  
+  .botao {
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    padding: 18px;
+    background-color: rgb(179, 241, 216);
+    color: black;
+    cursor: pointer;
+    border: none;
+    transform: translateY(25%) translateX(3%);
+  }
+  
+  select {
+    width: 178px;
+    height: 30px;
+    font-size: 20px;
+    transform: translateX(70%);
+  }
+  
+  h1 {
+    align-items: center;
+    text-align: center;
+    color: rgba(169, 52, 247, 0.781);
+  }
+  
+  h2 {
+    align-items: center;
+    text-align: center;
+    color: black;
+  }
+  
+  #peso {
+    border: none;
+    width: 182px;
+    height: 30px;
+    font-size: 20px;
+    transform: translateX(65%);
+  }
+  
+  
+  #altura {
+    border: none;
+    width: 182px;
+    height: 30px;
+    font-size: 20px;
+    transform: translateX(65%);
+  }
+  #result {
+    border: none;
+    width: fit-content;
+    font-size: 20px;
+    padding: 12px;
+    background-color: #f7f0f0;
+    color: black;
+    transform: translateX(25%);
+  }
+  
+  #btn_calcular {
+    width: 330px;
+    transform: translateX(13%);
+    margin-top: 15px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+  }
+  
+  #btn_reset {
+    width: 330px;
+    transform: translateX(13%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+  }
+  
+  
+  ::placeholder {
+    color: rgba(24, 23, 23, 0.885);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
